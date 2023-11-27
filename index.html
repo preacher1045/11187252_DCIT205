@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" scale="1.0"/>
+    <title>Homepage</title>
+    <link rel="stylesheet" href="index.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.8/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-eB86K3nYBzovIDzLvzL9CJeMZ8d2vh0B+BR06AweSTjI4t6ZZK1aVFg3fWE5tJ1F" crossorigin="anonymous">
+</head>
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="Home.html"><img src="LOGO.png" alt="Department Logo"/></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-bars" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Catalog.html">Catalog</a></li>
+            <li><a href="Resources.html">Resources</a></li>
+            <li><a href="Events.html">Events</a></li>
+            <li><a href="Contact.html">Contacts</a></li>
+            <li><a href="Research.html">Research</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text">
+        <h1>YOUR GATE WAY TO WORLD CLASS COMPUTER SCIENCE EDUCATION</h1>
+        <p>The world is ever changing <br>In this day and age it is important that one eqiups him/herself with the neccesary skill <br> come let us help you get equiped with the skills needed to change the world</p>
+        <a href="" class="join-button">JOIN US </a>
+      </div>
+    </section>
+
+    <!-----courses---->
+    <section class="courses">
+      <h1>Short Courses we offer</h1>
+      <p>
+        Our eight-week intensive certificate course is open to senior high
+        school graduates, tertiary students, school graduates, workers, and the
+        general public.
+        <br />
+        <span class="Short_course_Time">Evening and Weekend Session Only</span
+        >
+      </p>
+
+      <div class="row">
+        <div class="course-detail">
+          <img src="Mobile App Dev.jpg" alt="">
+          <h3>Mobile Application Development</h3>
+          <p>
+            We provide world class technologies for Mobile Application
+            Development using the mobile-first wroklight by IBM
+          </p>
+        </div>
+        <div class="course-detail">
+          <img src="Cyber Security.jpg" alt="">
+          <h3>Information Security and Ethical Hacking</h3>
+          <p>
+            Learn the various techniques used to secure a computer system from
+            attacks through hacking
+          </p>
+        </div>
+        <div class="course-detail">
+          <img src="CCNA.jpg" alt="">
+          <h3>Computer Network Fundamentals <br />(CCNA)</h3>
+          <p>
+            We provide quality training for students to become Cisco Certified
+            Network Associate <br />(CCNA)
+          </p>
+        </div>
+        <div class="course-detail">
+          <img src="Web Dev.png" alt="">
+          <h3>Introduction To Web Programming</h3>
+          <p>
+            Understand the Fundamentals of web technologies and create web-based
+            appliocations with latest technologies
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-column">
+            <h4>Admission</h4>
+            <ul>
+              <li>
+                <a href="#">Undergradute</a>
+                <a href="#">Graduate</a>
+                <a href="#">Internationals Students</a>
+                <a href="#">Entry Reqiurements</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Contact Us</h4>
+            <ul>
+              <li>
+                <p>
+                  +233 501 382 035 <br />
+                  +233 559 145 698 <br />
+                  dcs@ug.edu.gh
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Location</h4>
+            <ul>
+              <li>
+                <p>
+                  University Of Ghana, Legon Campus <br />
+                  Opposite Mathematics Department
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+    <!-------JavaScript for toggle menu.------->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
