@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EVENTS</title>
+    <link rel="stylesheet" href="events.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-eB86K3nYBzovIDzLvzL9CJeMZ8d2vh0B+BR06AweSTjI4t6ZZK1aVFg3fWE5tJ1F" crossorigin="anonymous">
+</head>
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="Home.html"><img src="LOGO.png" alt="Department Logo"/></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="catalog.html">Catalog</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="Events.html">Events</a></li>
+            <li><a href="contact.html">Contacts</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text">
+        <h1>EVENTS</h1>
+        <p></p>
+        <a href="" class="join-button">JOIN US </a>
+      </div>
+    </section>
+    <section class="event">
+        <h1>Upcoming Events</h1>
+        <p>
+            Sorry there no Upcoming events
+        </p>  
+        <h1>Past Event</h1>
+        <div class="row">
+          <div class="event-detail">
+            <img src="shortcourse17.08.2021.jpeg" alt="">
+            <h3>Online Short Courses</h3>
+            <p>
+                20th August, 2020<br>
+            </p>
+            <p>Registration Deadline:
+                17th September, 2021</p>
+          </div>
+          <div class="event-detail">
+            <img src="Cyber Security (1).jpg" alt="">
+            <h3>Global CyberTech Workshop</h3>
+            <p>2nd & 3rd December, 2021</p>
+            <p>Venue: Computer Science Department - University of Ghana</p>
+          </div>
+          <div class="event-detail">
+            <img src="event3.jpeg" alt="">
+            <h3>BECOMING A WORLD CLASS SOFTWARE ENGINEER</h3>
+            <p>20th August, 2020</p>
+            <p>Venue - Software Lab</p>
+          </div>
+        </div>
+      </section>
+
+
+    <!-------JavaScript for toggle menu------->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

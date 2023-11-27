@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CONTACT</title>
+    <link rel="stylesheet" href="contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"/>
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="Home.html"><img src="LOGO.png" alt="Department Logo"/></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-bars" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Catalog.html">Catalog</a></li>
+            <li><a href="Research.html">Research</a></li>
+            <li><a href="Events.html">Events</a></li>
+            <li><a href="contact.html">Contacts</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text">
+        <h1>CONTACT US</h1>
+        <P></P>
+        <a href="" class="join-button">JOIN US </a>
+      </div>
+    </section>
+
+<section class="location">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.4043424475803!2d-0.18636562564500045!3d5.6545050326525965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9d35c7bc40fd%3A0x760b35f47b34835d!2sComputer%20Science%20Department%2C%20University%20of%20Ghana!5e0!3m2!1sen!2sgh!4v1700740765386!5m2!1sen!2sgh" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+<section class="contact-us">
+  <div class="row">
+    <div class="contact-col">
+      <div>
+      <i class="fa fa-home"></i>
+      <span>
+        <h5>University Of Ghana, Legon Campus</h5>
+        <p>Opposite Mathematics Department</p>
+      </span>
+    </div>
+    <div>
+      <i class="fa fa-phone"></i>
+      <span>
+        <h5>+233 501 382 035</h5>
+        <p>Mon to Fri 9am to 5pm</p>
+      </span>
+    </div>
+    <div>
+      <i class="fa fa-envelope"></i>
+      <span>
+        <h5>dcs@ug.edu.gh</h5>
+        <p>Send us your query anytime!</p>
+      </span>
+    </div>
+    <div class="contact-col">
+      <form action="">
+        <input type="text" placeholder="Enter your Name" required>
+        <input type="email" placeholder="Enter Email Address" required>
+        <input type="text" placeholder="Enter your subject" required>
+        <textarea  rows="8" placeholder="Message" required></textarea>
+        <button type="submit" class="submit">Send Message</button>
+      </form>
+    </div>
+</div>
+  </div>
+</section>
+
+    <!--------Footer------>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-column">
+            <h4>Admission</h4>
+            <ul>
+              <li>
+                <a href="#">Undergradute</a>
+                <a href="#">Graduate</a>
+                <a href="#">Internationals Students</a>
+                <a href="#">Entry Reqiurements</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Contact Us</h4>
+            <ul>
+              <li>
+                <p>
+                  +233 501 382 035 <br />
+                  +233 559 145 698 <br />
+                  dcs@ug.edu.gh
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Location</h4>
+            <ul>
+              <li>
+                <p>
+                  University Of Ghana, Legon Campus <br />
+                  Opposite Mathematics Department
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+    <!-------JavaScript for toggle menue.------->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
