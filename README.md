@@ -19,8 +19,8 @@ Steps
 
     Now change the extension of the file from “txt” to “html” and save
 
-1.  Right click on the html file you just created and select the ‘open with..’ option in the drop-down menu. Select any text editor of your choice (we recommend using VS code). Or open your VS code editor and go to the file option on the top left of your screen and select open folder from the drop-down menu, VS code would open a directory for you to select a folder. From there select the folder/directory I which you created you html file.
-2.  Still in VS code, go to your Explorer tab (on your left just below the file option) and select your html file. To begin our code, we must first create the basic layout/structure of an html code but don’t worry VS code has us covered so on your keyboard just press your shift key and exclamation key the enter, and there you have it the basic structure of an html code
+2.  Right click on the html file you just created and select the ‘open with..’ option in the drop-down menu. Select any text editor of your choice (we recommend using VS code). Or open your VS code editor and go to the file option on the top left of your screen and select open folder from the drop-down menu, VS code would open a directory for you to select a folder. From there select the folder/directory I which you created you html file.
+3.  Still in VS code, go to your Explorer tab (on your left just below the file option) and select your html file. To begin our code, we must first create the basic layout/structure of an html code but don’t worry VS code has us covered so on your keyboard just press your shift key and exclamation key the enter, and there you have it the basic structure of an html code
 
 Note: in order to create a CSS and JavaScript file just follow the steps above, the only thing that needs changing is their extensions. So for CSS the file extension is ‘css’ and for JavaScript the file extension is ‘js’
 
@@ -36,41 +36,25 @@ HOME
 
 ABOUT
 
-![](media/774f461be00efdfd5a4991d4b2e5b7e7.png)
-
-![](media/50c19b5fde552d4bed4b8f2acf61e2dd.png)
-
-![](media/2bec07f177ccea4f1e8306f152aae24e.png)
-
-![](media/2e349a289922acde0c00f6f603a1c7e3.png)
+![](media/2bec07f177ccea4f1e8306f152aae24e.png)![](media/d1bf1ae684cad110675ce6b6b9504a18.png)![](media/50c19b5fde552d4bed4b8f2acf61e2dd.png)![](media/774f461be00efdfd5a4991d4b2e5b7e7.png)
 
 CATALOG
 
-![](media/d497a06c54dc56d5f29d055a62a67afa.png)
-
-![](media/b612734a74a64f18616131dd30bb6873.png)
-
-![](media/ab597ff8767f32dea4c0c4094a7d9468.png)
+![](media/d497a06c54dc56d5f29d055a62a67afa.png)![](media/b612734a74a64f18616131dd30bb6873.png)![](media/ab597ff8767f32dea4c0c4094a7d9468.png)
 
 EVENTS
 
-![](media/b68495fd0aa654d637811ea732285aad.png)
-
-![](media/e82460c9b9d512fef87fa44708e4dccb.png)
+![](media/b68495fd0aa654d637811ea732285aad.png)![](media/28b664c4ee7cb4e44ad7197feb063574.png)
 
 CONTACT
 
-![](media/16cc75bbb9b6be79ba825eef5d678f45.png)
-
-![](media/ab4c8afe57f178d17d597061ef31bd99.png)
+![](media/16cc75bbb9b6be79ba825eef5d678f45.png)![](media/ab4c8afe57f178d17d597061ef31bd99.png)
 
 ![](media/08d4bb63f4759c348a4fc8fa7106b95a.png)
 
 RESEARCH
 
-![](media/c796c597390826c951095631d451178b.png)
-
-![](media/00aa79dc115a41518b9b1f5697d738a3.png)
+![](media/c796c597390826c951095631d451178b.png)![](media/00aa79dc115a41518b9b1f5697d738a3.png)
 
 **LESSON LEARNED**
 
