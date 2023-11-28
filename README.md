@@ -24,6 +24,11 @@ Steps
 
 Note: in order to create a CSS and JavaScript file just follow the steps above, the only thing that needs changing is their extensions. So for CSS the file extension is ‘css’ and for JavaScript the file extension is ‘js’
 
+4. Go to your file directory clear the file path and type "Powershell". in powershell, initialize git.
+   after initialization go to your browser and visit github, sign in and create a repository if not given any
+
+5. Go back to VS code and open a new terminal and from the track and commit your files to you Github repository after that push it using "git push/git push origin main".
+
 SCREENSHOTS OF MY WEBSITE
 
 HOME

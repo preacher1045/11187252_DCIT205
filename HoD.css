@@ -211,43 +211,12 @@
     font-weight: bold;
   }
 
-  .Organization,
-  .custom,
-  .learning,
-  .future {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-bottom: 20px;
-    color: #001F3F;
-  }
-  
-  .head .img-col,
-  .custom .image-col,
-  .learning .picture,
-  .future img {
-    flex: 1;
-    text-align: center;
-  }
-  
-  .head.text-col,
-  .custom .community-col,
-  .learning div,
-  .future div {
-    flex: 1;
-    text-align: center;
-    padding: 0 20px;
-  }
-  
-  .head .img-col img,
-  .custom .image-col img,
-  .learning .picture img,
-  .future img {
-    max-width: 80%;
-    height: auto;
-  }
-
+ .img-col img{
+    width: 350px;
+    height: 250px;
+    padding-bottom: 10PX;
+ }
+ 
   
   .footer .row{
     display: flex;
