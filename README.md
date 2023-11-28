@@ -10,8 +10,8 @@ STEPS REQIURED WHEN CLONING OR SETTING-UP A PROJECT
 
 Key focus
 
--   Visualization: before cloning or setting-up a website, it is best that you first imagine what your website would look like. This step helps you in knowing what tools would need aside from the major tools and also gives you a clear idea of how your code should structured.
--   Tools: There are lots of tool used in the creation of a website, an example of such tools are; HTML, CSS, and JAVASCRIPT. Each tool has its purpose like HTML is used for the creating the frame work of the website, after that CSS is used to style the website so that it would look more appealing. JAVASCRIPT is then used to make the website more interactive
+- Visualization: before cloning or setting-up a website, it is best that you first imagine what your website would look like. This step helps you in knowing what tools would need aside from the major tools and also gives you a clear idea of how your code should structured.
+- Tools: There are lots of tool used in the creation of a website, an example of such tools are; HTML, CSS, and JAVASCRIPT. Each tool has its purpose like HTML is used for the creating the frame work of the website, after that CSS is used to style the website so that it would look more appealing. JAVASCRIPT is then used to make the website more interactive
 
 Steps
 
@@ -28,33 +28,57 @@ SCREENSHOTS OF MY WEBSITE
 
 HOME
 
-![](media/c90691ce92480438646d953e11dace22.png)
+![home](home.png)
 
-![](media/93b51f48532e2063ccc190d52cbd62b4.png)
+![home1](home1.png)
 
-![](media/6418debb9ea63e2954c679278343fe36.png)
+![home2](home2.png)
 
 ABOUT
 
-![](media/2bec07f177ccea4f1e8306f152aae24e.png)![](media/d1bf1ae684cad110675ce6b6b9504a18.png)![](media/50c19b5fde552d4bed4b8f2acf61e2dd.png)![](media/774f461be00efdfd5a4991d4b2e5b7e7.png)
+![about](about.png)
+
+![about1](about1.png)
+
+![about2](about2.png)
+
+![about3](about3.png)
 
 CATALOG
 
-![](media/d497a06c54dc56d5f29d055a62a67afa.png)![](media/b612734a74a64f18616131dd30bb6873.png)![](media/ab597ff8767f32dea4c0c4094a7d9468.png)
+![catalog](catalog.png)
+
+![catalog](catalog1.png)
 
 EVENTS
 
-![](media/b68495fd0aa654d637811ea732285aad.png)![](media/28b664c4ee7cb4e44ad7197feb063574.png)
+![events](events.png)
+
+![events](events1.png)
 
 CONTACT
 
-![](media/16cc75bbb9b6be79ba825eef5d678f45.png)![](media/ab4c8afe57f178d17d597061ef31bd99.png)
+![contact](contact.png)
 
-![](media/08d4bb63f4759c348a4fc8fa7106b95a.png)
+![contact1](contact1.png)
+
+![contact2](contact2.png)
 
 RESEARCH
 
-![](media/c796c597390826c951095631d451178b.png)![](media/00aa79dc115a41518b9b1f5697d738a3.png)
+![research](research.png)
+
+![research](research1.png)
+
+![research](research2.png)
+
+STUDENT PROJECTS
+
+![project](project.png)
+
+![project](project1.png)
+
+![project](project2.png)
 
 **LESSON LEARNED**
 
