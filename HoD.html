@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CATALOG</title>
+    <link rel="stylesheet" href="catalog.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-eB86K3nYBzovIDzLvzL9CJeMZ8d2vh0B+BR06AweSTjI4t6ZZK1aVFg3fWE5tJ1F" crossorigin="anonymous">
+</head>
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="Home.html"><img src="LOGO.png" alt="Department Logo"/></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Catalog.html">Catalog</a></li>
+            <li><a href="Research.html">Research</a></li>
+            <li><a href="Events.html">Events</a></li>
+            <li><a href="contact.html">Contacts</a></li>
+            <li><a href="students Projects.html">Projects</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text">
+        <h1>OUR COURSES</h1>
+      </div>
+    </section>
+    
+    <section>
+    <div class="row">
+      <div class="course-det">    
+        <h1>Short Courses</h1>
+        <p>
+        Our eight week intensive certificate course is open to senior high school graduates, tertiary students, school graduates, workers and the general public.
+      </p>
+      <a href="Short_course.html">Read More</a>
+      </div>
+      <div class="course-det">
+        
+        <h1>Undergraduate Programmes</h1>
+        <p>
+        Open the door to sought-after technology careers with a world-class Bachelor of Science in Computer Science degree.
+      </p>
+      <a href="Short_course.html">Read More</a>
+      </div>
+      <div class="course-det">
+        <h1>PhD Programmes</h1>
+        <p>
+        Embrace world class gradate education with unique blend of cutting-edge research and industry experience.
+        </p>
+        <a href="Short_course.html">Read More</a>
+      </div>
+      <div class="course-det">
+        <h1>Mphil and msc Programmes</h1>
+        <p>
+        Our PHDs lead the effort to extend the boundaries of knowledge through quality and industry relevant research.
+        </p>
+        <a href="Short_course.html">Read More</a>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="head">
+        <div class="img-col">
+            <img src="Dr Jamal Deen Abdulai.jpg" alt="">
+        </div>
+       <div class="text-col">
+        <h2>The Department Head</h2>
+        <p>Dr Jamal Deen Abdulai is a lecturer in the University of Ghana(LEGON) and also the HoD of our esteemed department.</p>
+       </div>
+  </section>
+      <!----Footer----->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-column">
+            <h4>Admission</h4>
+            <ul>
+              <li>
+                <a href="#">Undergradute</a>
+                <a href="#">Graduate</a>
+                <a href="#">Internationals Students</a>
+                <a href="#">Entry Reqiurements</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Contact Us</h4>
+            <ul>
+              <li>
+                <p>
+                  +233 501 382 035 <br />
+                  +233 559 145 698 <br />
+                  dcs@ug.edu.gh
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Location</h4>
+            <ul>
+              <li>
+                <p>
+                  University Of Ghana, Legon Campus <br />
+                  Opposite Mathematics Department
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </footer>
+
+    <!-------JavaScript for toggle menue.------->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
